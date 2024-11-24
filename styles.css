@@ -23,7 +23,6 @@ ul li a {
   font-size: 36px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 100px;
 }
@@ -61,4 +60,10 @@ ul li a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.project-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
