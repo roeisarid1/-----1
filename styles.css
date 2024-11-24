@@ -1,0 +1,52 @@
+body {
+  background-color: #f4f4f4;
+}
+#HomePageHeader {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+#introduction {
+  font-family: "Lora", serif; /* Stylish and readable */
+  text-align: center;
+}
+ul {
+  list-style-type: none; /* Removes bullets */
+  padding: 0; /* Remove default padding */
+}
+ul li a {
+  text-decoration: none;
+  background-color: rgb(233, 238, 241);
+}
+
+.nav-menu {
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.nav-link {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  border-style: outset;
+  border-width: 10px;
+  border-color: rgb(247, 237, 223);
+}
+.nav-link:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+.photo_gallery {
+  width: 100%; /* Makes the gallery cover 80% of the parent container's width */
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.surfphoto {
+  width: 300px; /* Set width to 300 pixels */
+  height: auto;
+}
+h3 h1 {
+  
+}
