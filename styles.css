@@ -66,14 +66,53 @@ ul li a {
   background-repeat: no-repeat;
   background-position: center;
 }
-.project-display {
+.project-display-cv {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-size: cover;
+}
+.project-display {
+  background-image: url("photos folder/3702385.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  color: white;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 img {
   max-width: 100%; /* Make the image no wider than its container */
   height: auto; /* Maintain the aspect ratio */
   display: block; /* Prevent extra spaces below images */
+}
+#C_Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: #f1faee;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-stroke: 0.5px white;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f1faee;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-image: url("photos folder/8777536.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.nav-menu-nohome {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
